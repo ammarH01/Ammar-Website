@@ -1,10 +1,10 @@
-#logo1{
+.logo1{
   width: 120px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-#pic1{
+.pic1{
   width: 250px;
   height: auto;
   display: block;
