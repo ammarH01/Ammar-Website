@@ -1,12 +1,92 @@
-.logo1{
-  width: 120px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
 }
-.pic1{
-  width: 250px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+
+header {
+background: #0b3d6d;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-size: 14px;
+}
+
+.hero {
+background: url("https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg") no-repeatcenter/cover;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero h2 {
+color: white;
+font-size: 40px;
+background: rgba(0,0,0,0.5);
+padding: 10px 20px;
+}
+
+.values {
+display: flex;
+padding: 40px;
+gap: 40px;
+}
+
+.values div {
+width: 50%;
+}
+
+.key-values {
+text-align: center;
+padding: 30px;
+border-top: 2px solid #ccc;
+}
+
+.about {
+display: flex;
+padding: 40px;
+gap: 30px;
+}
+
+.about img {
+width: 50%;
+border-radius: 8px;
+}
+
+.about div {
+width: 50%;
+}
+
+.contact {
+display: flex;
+padding: 40px;
+gap: 30px;
+}
+
+.contact img {
+width: 50%;
+border-radius: 8px;
+}
+
+.contact div {
+width: 50%;
+}
+
+footer {
+background: #0b3d6d;
+color: white;
+text-align: center;
+padding: 20px;
 }
