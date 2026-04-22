@@ -1,10 +1,10 @@
-.logo1{
+logo1{
   width: 200px;
-  height: 100px;
+  height: auto;
   align:center;
 }
-.pic1{
+pic1{
   width: 400px;
-  height: 200px;
+  height: auto;
   align:center;
 }
