@@ -92,5 +92,6 @@ padding: 20px;
 }
 
 .values{
-  width = 20px;
+  width = 50%;
+  float:left;
 }
