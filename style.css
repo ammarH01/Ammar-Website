@@ -38,21 +38,8 @@ background: rgba(0,0,0,0.5);
 padding: 10px 20px;
 }
 
-.values {
-display: flex;
-padding: 40px;
-gap: 40px;
-}
 
-.values div {
-width: 50%;
-}
 
-.key-values {
-text-align: center;
-padding: 30px;
-border-top: 2px solid #ccc;
-}
 
 .about {
 display: flex;
