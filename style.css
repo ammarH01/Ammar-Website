@@ -1,41 +1,75 @@
-header {
-background: #0b3d6d;
-color: white;
-text-align: center;
-padding: 20px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-nav {
-margin-top: 10px;
+/* HEADER */
+.header {
+  background: #0b3d6d;
+  color: white;
+  padding: 20px;
 }
 
-.values{
-  float=left;
-  width = 30%;
+.header nav {
+  margin-top: 10px;
 }
 
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* HERO SECTION */
 .hero {
-height: 250px;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 300px;
+
+  /* 🔴 PUT YOUR IMAGE FILE NAME HERE */
+  background-image: url("images/flag.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about {
-display: flex;
-padding: 40px;
-gap: 30px;
+.hero h2 {
+  color: white;
+  font-size: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
 }
 
-.contact {
-display: flex;
-padding: 40px;
-gap: 30px;
+/* CONTENT */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
-footer {
-background: #0b3d6d;
-color: white;
-text-align: center;
-padding: 20px;
+.box {
+  width: 40%;
+  padding: 20px;
+}
+
+.divider {
+  width: 2px;
+  height: 200px;
+  background: black;
+}
+
+/* VALUES */
+.values {
+  padding: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background: #0b3d6d;
+  color: white;
+  padding: 20px;
 }
