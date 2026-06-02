@@ -6,6 +6,26 @@ body {
     color: #222;
 }
 
+/* LOGO AREA */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 45px;      /* Adjust size if needed */
+    width: auto;
+    border-radius: 4px; /* Optional: remove if you want sharp edges */
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
 /* HEADER */
 header {
     background: #003366;
