@@ -152,3 +152,43 @@ footer {
     }
 }
 
+/* CONTACT PAGE STYLING */
+.content h2 {
+    margin-top: 30px;
+    color: #003366;
+}
+
+.contact-box {
+    background: #f5f5f5;
+    padding: 20px;
+    border-left: 5px solid #003366;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.contact-box p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+.contact-box strong {
+    color: #003366;
+}
+
+/* Optional: highlight the active nav link */
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #003366;
+}
+
+/* Improve spacing on contact page */
+.content p {
+    line-height: 1.6;
+}
+
+/* Make address formatting cleaner */
+.address-block {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
